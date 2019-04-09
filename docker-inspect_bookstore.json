@@ -1,0 +1,240 @@
+[
+    {
+        "Id": "00e7786e88077379d9da1ff34324372ccfac94065579debc92f96a9c97d0ed10",
+        "Created": "2019-04-08T12:12:39.814816423Z",
+        "Path": "bee",
+        "Args": [
+            "run"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 12359,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2019-04-08T16:23:45.802810962Z",
+            "FinishedAt": "2019-04-08T16:23:28.094986789Z"
+        },
+        "Image": "sha256:216ea54ff66eacce5e2d6e3af43d356b0c88f6a08f5e47a98fcda4a0661ef78c",
+        "ResolvConfPath": "/var/lib/docker/containers/00e7786e88077379d9da1ff34324372ccfac94065579debc92f96a9c97d0ed10/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/00e7786e88077379d9da1ff34324372ccfac94065579debc92f96a9c97d0ed10/hostname",
+        "HostsPath": "/var/lib/docker/containers/00e7786e88077379d9da1ff34324372ccfac94065579debc92f96a9c97d0ed10/hosts",
+        "LogPath": "/var/lib/docker/containers/00e7786e88077379d9da1ff34324372ccfac94065579debc92f96a9c97d0ed10/00e7786e88077379d9da1ff34324372ccfac94065579debc92f96a9c97d0ed10-json.log",
+        "Name": "/book-store_book-store_1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/lekan/go_projects/src/book-store:/go/src/book-store:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "book-store_default",
+            "PortBindings": {
+                "9000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": [],
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "shareable",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/02a402e62ff37fd77a609b833a2621ed54b653271f8c73364b6a92fd2f2eb8aa-init/diff:/var/lib/docker/overlay2/c362c29ebf152e67a6f66606f17d200d6dd1ba93c9e7ca0f8e2cc4093906d444/diff:/var/lib/docker/overlay2/b5a94e2962a513dd8c781933f1f8432a763b3851d28fa307b37ea94eafd393a2/diff:/var/lib/docker/overlay2/f4321c99126de2fd60f4fde4669000883171ccb82871bacc4c5022e2bd699752/diff:/var/lib/docker/overlay2/b0f96dc46f1373e13e8f72516ad7dba6b0e0a52a9be7e90553c43b51133e642f/diff:/var/lib/docker/overlay2/59b12b455265933d61685e96609bab780dedb7243fb5e42f51c89db92eddd4bf/diff:/var/lib/docker/overlay2/63db57716172b61a393c5183f3138eaa5b25b9a1f19d82af9bd509177d58782e/diff:/var/lib/docker/overlay2/9fe4dd7988be42369fb293fc1f21589520b47cb85abc21880265bb3d92823b64/diff:/var/lib/docker/overlay2/ea702f62988b423c22c5850861ea332ed5fb84ae1d3bb6fb82c3670730e41c2b/diff:/var/lib/docker/overlay2/7616fefd6a00c261a56eaa363bc7774534c82837d439888e9c6a769e8fd0cc3d/diff:/var/lib/docker/overlay2/5ab7688275584f5e42fdc664a3d77862403f53525e35f022926ef19715d1e449/diff:/var/lib/docker/overlay2/ef25086433fbb94d2304c9caeb4f2c4c0e95b2cfdecd6b56adc9bc24e34ab260/diff:/var/lib/docker/overlay2/f23fce1a5a1d2081cecf2894dacf1a36e6b81328b5904ea9e9bc7c65a6688c4f/diff:/var/lib/docker/overlay2/511c32a116eedbda7ad0fd3fbb21e3701f3213c5fdec8eef70e155d8113eb71f/diff:/var/lib/docker/overlay2/c52952b4b890bcc2b3425d49bf1d487c35d680ed8deb9d4c714e09ffeeca6284/diff",
+                "MergedDir": "/var/lib/docker/overlay2/02a402e62ff37fd77a609b833a2621ed54b653271f8c73364b6a92fd2f2eb8aa/merged",
+                "UpperDir": "/var/lib/docker/overlay2/02a402e62ff37fd77a609b833a2621ed54b653271f8c73364b6a92fd2f2eb8aa/diff",
+                "WorkDir": "/var/lib/docker/overlay2/02a402e62ff37fd77a609b833a2621ed54b653271f8c73364b6a92fd2f2eb8aa/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/lekan/go_projects/src/book-store",
+                "Destination": "/go/src/book-store",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "00e7786e8807",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "9000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOLANG_VERSION=1.12.1",
+                "GOPATH=/go"
+            ],
+            "Cmd": [
+                "bee",
+                "run"
+            ],
+            "ArgsEscaped": true,
+            "Image": "book-store_book-store",
+            "Volumes": {
+                "/go/src/book-store": {}
+            },
+            "WorkingDir": "/go/src/book-store",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "fea9a2f9416f234c703a6e1fa0f9a26a2ee17778440c7ae3eeaca23e1d6d1295",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "book-store",
+                "com.docker.compose.service": "book-store",
+                "com.docker.compose.version": "1.24.0"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "0786153451d5aebbc19dfc13754c2bd1e36b11f27c8b2cd944de76d7d9a75132",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "9000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "9000"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/0786153451d5",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "book-store_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "book-store",
+                        "00e7786e8807"
+                    ],
+                    "NetworkID": "e521371c9b5d73097c07cac45fb07bbdf091d9388e3cdee521bb8b49cad9c9dc",
+                    "EndpointID": "6e5b82ce4699c01ead166322137053b23f830bc48f2a2d52c55d3723c169f455",
+                    "Gateway": "172.20.0.1",
+                    "IPAddress": "172.20.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:14:00:03",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,238 @@
+[
+    {
+        "Id": "e32b308d129bd6442e5a57f2fde9f9dd33d2fbb14d354d46135777b94d94cc7f",
+        "Created": "2019-04-08T11:25:06.13732491Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "postgres"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 12191,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2019-04-08T16:23:44.851540171Z",
+            "FinishedAt": "2019-04-08T16:23:38.5730907Z"
+        },
+        "Image": "sha256:564cc4c97fef03aef98e9f07c13677050b85399c6cd66d9a4727ed63a7dee3c7",
+        "ResolvConfPath": "/var/lib/docker/containers/e32b308d129bd6442e5a57f2fde9f9dd33d2fbb14d354d46135777b94d94cc7f/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/e32b308d129bd6442e5a57f2fde9f9dd33d2fbb14d354d46135777b94d94cc7f/hostname",
+        "HostsPath": "/var/lib/docker/containers/e32b308d129bd6442e5a57f2fde9f9dd33d2fbb14d354d46135777b94d94cc7f/hosts",
+        "LogPath": "/var/lib/docker/containers/e32b308d129bd6442e5a57f2fde9f9dd33d2fbb14d354d46135777b94d94cc7f/e32b308d129bd6442e5a57f2fde9f9dd33d2fbb14d354d46135777b94d94cc7f-json.log",
+        "Name": "/book-store_database_1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "book-store_dbdata:/var/lib/postgresql/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "book-store_default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": [],
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "shareable",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/710e58f5eea01241ce01f3855678835160954d0abb1db0e12a852c3ef7d9c82f-init/diff:/var/lib/docker/overlay2/cec7dc727d242808e6922f22f64b904c1e5ebbae9815eb243e82cf5435d8dae3/diff:/var/lib/docker/overlay2/fc672ebe4d77a5c933ee476b7b7b04ef612245a1255a073573651f677ac014ff/diff:/var/lib/docker/overlay2/e0ae861a5f700a73341d47a4f89076fabe057ff3feead504ab1cb37384aee09d/diff:/var/lib/docker/overlay2/cf208f49775e327ac69d4644eb00956f46e8d9e483f643b702c00df577ff15fb/diff:/var/lib/docker/overlay2/6761499ef633f7debb6aeb6ad64c827c469a2359943744ba054ddd85a64fe45b/diff:/var/lib/docker/overlay2/8fa6500abd5555e3c51ca7b1e707df3797044b32d235da09bd33e4e7f3d460a6/diff:/var/lib/docker/overlay2/0bc430f555158e275168f86f81c8b51c105c71dc3960c7e5199c6f71a20e0277/diff:/var/lib/docker/overlay2/e7b5bd56396faa358c8fd47dd7189ee35bf666e18fce42d01c05a437fb83631e/diff:/var/lib/docker/overlay2/524dec3d70051f22163a619d07546405c97526444d75131b257233296b92d435/diff:/var/lib/docker/overlay2/a50b2304c810bd45aa2c617a85dd043ae06ace4375644f23d8541a59bdf5503e/diff:/var/lib/docker/overlay2/23721c98248db352e30bd678cd4020195b255995ec1a809152fe14a5d2399c98/diff:/var/lib/docker/overlay2/aecaab5a94fadea497661c21f750504c903d61abb8ad13fdc5fc27790e997077/diff:/var/lib/docker/overlay2/5978ab0e4c50692aec1982e9f53316282e25d137a5e9dd4ade47c7057682f067/diff:/var/lib/docker/overlay2/d41d357a6fee5e8b4ac8c41901bd9aacfd64375e461f0ef7a5ef4a73814acb09/diff",
+                "MergedDir": "/var/lib/docker/overlay2/710e58f5eea01241ce01f3855678835160954d0abb1db0e12a852c3ef7d9c82f/merged",
+                "UpperDir": "/var/lib/docker/overlay2/710e58f5eea01241ce01f3855678835160954d0abb1db0e12a852c3ef7d9c82f/diff",
+                "WorkDir": "/var/lib/docker/overlay2/710e58f5eea01241ce01f3855678835160954d0abb1db0e12a852c3ef7d9c82f/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "book-store_dbdata",
+                "Source": "/var/lib/docker/volumes/book-store_dbdata/_data",
+                "Destination": "/var/lib/postgresql/data",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "e32b308d129b",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5432/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "POSTGRES_PORT\"=5432",
+                "POSTGRES_USER=postgres",
+                "POSTGRES_PASSWORD=postgres",
+                "POSTGRES_DB=bookstore",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/9.6/bin",
+                "GOSU_VERSION=1.11",
+                "LANG=en_US.utf8",
+                "PG_MAJOR=9.6",
+                "PG_VERSION=9.6.12-1.pgdg90+1",
+                "PGDATA=/var/lib/postgresql/data"
+            ],
+            "Cmd": [
+                "postgres"
+            ],
+            "ArgsEscaped": true,
+            "Image": "postgres:9.6",
+            "Volumes": {
+                "/var/lib/postgresql/data": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "d27898d0d8a6b157d26589874a2a6af9d977305eed8444a4ec6cc883914c3564",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "book-store",
+                "com.docker.compose.service": "database",
+                "com.docker.compose.version": "1.24.0"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "5515bbbd7a9c09bd05e4c250ca13febceab55062cb9aea23c831f5421f3712e2",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "5432/tcp": null
+            },
+            "SandboxKey": "/var/run/docker/netns/5515bbbd7a9c",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "book-store_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "database",
+                        "e32b308d129b"
+                    ],
+                    "NetworkID": "e521371c9b5d73097c07cac45fb07bbdf091d9388e3cdee521bb8b49cad9c9dc",
+                    "EndpointID": "4cd2d64ae69dddd14123ff6e2d8aa190574f392c042cfd7298a1ff9171df2201",
+                    "Gateway": "172.20.0.1",
+                    "IPAddress": "172.20.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:14:00:02",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]

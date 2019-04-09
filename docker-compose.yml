@@ -1,0 +1,27 @@
+version : '2'
+
+services:
+  database:
+    image: "postgres:9.6"
+    volumes:
+      - "dbdata:/var/lib/postgresql/data"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: bookstore
+      POSTGRES_PORT": 5432
+
+  book-store:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /home/lekan/go_projects/src/book-store:/go/src/book-store
+    working_dir: /go/src/book-store
+    ports:
+      - 9000:9000
+    depends_on:
+      - database
+
+volumes:
+  dbdata:

@@ -1,0 +1,10 @@
+== Info:   Trying 127.0.0.1...
+== Info: Connected to localhost (127.0.0.1) port 5000 (#0)
+=> Send header, 88 bytes (0x58)
+0000: GET /api/books/ HTTP/1.1
+001a: Host: localhost:5000
+0030: User-Agent: curl/7.47.0
+0049: Accept: */*
+0056: 
+== Info: Recv failure: Connection reset by peer
+== Info: Closing connection 0
