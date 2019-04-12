@@ -20,6 +20,10 @@ services:
     working_dir: /go/src/book-store
     ports:
       - 9000:9000
+#    links:
+#      - db:database
+#    networks:
+#      - bookstore
     depends_on:
       - database
 
